@@ -1,0 +1,33 @@
+body{
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#tempInput {
+    width: 200px;
+    padding: 10px;
+    
+}
+
+#conversionType {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#convertButton {
+    background-color: #7ca8d3; /* Green */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#convertButton:hover {
+    background-color: #3472ac; /* Darker green */
+}

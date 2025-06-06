@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temparature conversion program</title>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <form action="">
+
+        <h1>Temperature Conversion Program</h1>
+        <input type="number" id="tempInput" value="'" placeholder="Enter temperature"><br/><br/>
+
+        <input type="radio" name="conversionType" id="cToF">
+         <label for="cToF" Celsius>Celcius to Fahrenheit</label><br/>
+
+        <input type="radio" name="conversionType" id="fToC">
+        <label for="fToC">Fahrenheit to Celcius</label><br/><br/>
+
+        <button type="button" onclick="convert()" id="convertButton">Convert</button>
+        <p id="result"></p>
+
+        </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
